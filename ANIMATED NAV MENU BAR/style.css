@@ -1,0 +1,73 @@
+
+	*{
+		box-sizing: border-box;
+		font-family: unset;
+	}
+
+	body{
+		background: rgba(12,14,65,0.234);
+	}
+
+nav{
+	display:flex;
+	position:relative;
+	top:290px;
+	height:80px;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background:rgba(12,15,87,0.590);
+	width:770px;
+	border-radius: 30px;
+	box-shadow:0 0 4px cyan;
+
+
+}
+ a{
+     padding :0 28px;
+     
+	font-size:2rem;
+	text-align: center;
+	text-decoration: none;
+	color:palevioletred;
+	font-weight: 200;
+	text-transform: capitalize;
+	z-index:2;
+	
+
+}
+  .mover {
+	position:absolute;
+	left:5px;
+	width:130px;
+	height:85%;
+	background:white;
+	z-index: 1;
+	border-radius:20px;
+	transition: 1.5s;
+	box-shadow: 0 0 0.5em cyan,0 0 1em cyan;
+	
+}
+   .a2:hover ~ .mover{
+  transform: translateX(145px);
+    
+}
+
+    .a3:hover ~ .mover{
+  transform: translateX(310px);
+ 
+}
+
+  .a4:hover ~ .mover{
+  transform: translateX(470px);
+ 
+
+}
+
+  .a5:hover ~ .mover{
+  transform: translateX(626px);
+}
+
+
+
+	
